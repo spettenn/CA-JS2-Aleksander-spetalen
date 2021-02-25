@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.card {
+    width: 22%;
+    height: 470px;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 0px;
+}
+.card::hoover {
+
+}
+a {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+h2 {
+    font-size: 18px;
+    margin-left: 5px;
+}
+h3 {
+    font-size: 40px;
+}
+p {
+    margin-left: 5px;
+}
+.pTxt {
+    font-size: 15px;
+    width: 50%;
+    
+}
+.bgImg {
+    width: 100%;
+    height: 50%;
+    border-bottom: black solid 1px;
+}
+.cardTwo {
+    width: 50%;
+}

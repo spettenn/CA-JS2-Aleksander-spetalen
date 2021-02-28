@@ -10,8 +10,13 @@ main {
     margin: 4px;
     padding: 0px;
 }
-.card::hoover {
-
+.cardTwo {
+    width: 50%;
+}
+.cardThree {
+    border: 1px solid black;
+    padding: 10px; 
+    width: 58%;
 }
 a {
     border: 1px solid black;
@@ -23,6 +28,12 @@ a {
     text-decoration: none;
     color: black;
     margin-left: 5px;
+}
+#return {
+    background-color: green;
+    color: black;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 h2 {
     font-size: 18px;
@@ -44,6 +55,8 @@ p {
     height: 50%;
     border-bottom: black solid 1px;
 }
-.cardTwo {
-    width: 50%;
+.bgImgTwo {
+    width: 60%;
+    border: 1px solid black;
 }
+
